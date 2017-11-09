@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#contentdiv{
+    position: absolute;
+    left:200px;
+
+}
+#startdiv{
+    width:320px;
+    height: 568px;
+    background-image: url("plane/image/开始背景.png");
+
+}
+#startdiv button{
+    position: absolute;
+    width: 150px;
+    height:30px ;
+    top:500px;
+    left:85px;
+    border:1px solid black;
+    background-color: azure;
+    border-radius: 30px;
+}
+#maindiv{
+    width:320px;
+    height:568px;
+    background-image:url("plane/image/background_1.png") ;
+    display:none;
+}
+#maindiv img{
+    position: absolute;
+    z-index: 1;
+}
+#scorediv{
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+#suspenddiv{
+    position: absolute;
+    top:220px;
+    left: 85px;
+    z-index: 2;
+    display: none;
+}
+#suspenddiv button{
+    width:150px;
+    height:30px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    background-color: azure;
+    margin-bottom: 20px;
+}
+#enddiv{
+    position:absolute;
+    top:220px;
+    left:85px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    background-color: azure;
+    z-index: 2;
+    display: none;
+}
+.planetext{
+    width: 160px;
+    height:30px;
+    font-size:16px;
+    font-weight:bold;
+    /*设置字体距离上边框距离*/
+    line-height:30px;
+}
+#endscore{
+    width:160px;
+    height:80px;
+    font-size:16px;
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+    line-height:80px;
+}
+#enddiv div{
+    width:160px;
+    height:40px;
+}
+#enddiv div button{
+    margin-top:5px;
+    width:90px;
+    height:30px;
+    border:1px solid black;
+    border-radius: 30px;
+}
